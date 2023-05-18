@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "outDir": "./dist/",
+    "typeRoots": ["@types", "./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"],
+      "#slices/*": ["src/store/slices/*"]
+    }
+  },
+  "include": ["./src/**/*", "./@types", "tools.d.ts"],
+  "exclude": ["./node_modules/**/*", "./eslintrc.js"]
+}

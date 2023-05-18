@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+}
+.image {
+  display: block;
+  padding: 40px;
+}
+
+.text {
+  margin: 30px;
+  font-weight: 700;
+}
+
+.textBlockMini {
+  margin: 10px;
+  padding: 15px;
+}
